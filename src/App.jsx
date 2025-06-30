@@ -6,6 +6,8 @@ import Button from '@mui/material/Button'
 import { deepOrange, deepPurple, pink } from '@mui/material/colors'
 import { useColorScheme } from '@mui/material/styles'
 import * as React from 'react'
+import { pink } from '@mui/material/colors'
+import Typography from '@mui/material/Typography'
 import { useState } from 'react'
 
 // hàm để chuyển hình nền sang trắng , đen
@@ -37,6 +39,7 @@ function App() {
         <Avatar sx={{ bgcolor: deepOrange[500] }}>N</Avatar>
         <Avatar sx={{ bgcolor: deepPurple[500] }}>OP</Avatar>
       </div>
+      <Typography variant="body2" color="text.secondary">Test Typography</Typography>
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
